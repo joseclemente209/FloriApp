@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <rect width="192" height="192" rx="42" fill="#122117" />
+  
+  <!-- Ícone Minimalista Completo (Folha e Botão de Gestão) -->
+  <circle cx="96" cy="74" r="32" fill="#253d2f" />
+  <path d="M96 52c-12 0-22 10-22 22 0 13 12 24 22 32 10-8 22-19 22-32 0-12-10-22-22-22z" fill="#c5a038" />
+  <path d="M96 60v16M88 68h16" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+  
+  <!-- Nome Completo FloriApp Minimalista -->
+  <text x="96" y="146" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="1">FloriApp</text>
+  <text x="96" y="162" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="8" font-weight="400" fill="#c5a038" text-anchor="middle" letter-spacing="0.5">GESTAO BOTÂNICA</text>
+</svg>
