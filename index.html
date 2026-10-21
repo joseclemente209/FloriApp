@@ -5,8 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FloriApp - Gestão Botânica Profissional</title>
 
-  <link rel="manifest" href="manifest.json">
+  <!-- PWA, Favicons e Cores (Apontados para assets/icons/) -->
+  <link rel="manifest" href="./manifest.json">
+  <link rel="icon" type="image/svg+xml" href="./assets/icons/icon-192.svg">
+  <link rel="apple-touch-icon" href="./assets/icons/icon-192.svg">
   <meta name="theme-color" content="#122117">
+
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -78,7 +82,6 @@
     <main class="container">
       <!-- INÍCIO -->
       <section id="inicio" class="tab-content active">
-        <!-- Banner Promocional do Modo Premium -->
         <div class="premium-promo-card">
           <h3>Edição Profissional Premium</h3>
           <p>Potencie a gestão da sua coleção com o plano avançado da FloriApp.</p>
@@ -156,7 +159,6 @@
           </div>
         </div>
 
-        <!-- Adicionar / Gerir Pagamento -->
         <div class="card" id="upgrade-section">
           <h3 style="font-size: 15px; margin-bottom: 6px;">Método de Pagamento & Premium</h3>
           <p style="font-size: 12px; color: var(--text-muted); margin-bottom: 14px;">Adicione um cartão de crédito para ativar a Subscrição Premium.</p>
@@ -184,7 +186,6 @@
           </form>
         </div>
 
-        <!-- Botões de Ação na Conta -->
         <div class="card">
           <button type="button" class="btn btn-danger-outline" id="btn-remove-card" style="display: none;" onclick="window.handleRemoveCard()">Retirar Cartão Guardado</button>
           <button type="button" class="btn btn-primary" id="btn-logout" onclick="window.handleLogout()" style="margin-top: 10px; background-color: #8c2a2a;">Terminar Sessão</button>
@@ -213,7 +214,8 @@
     </nav>
   </div>
 
-  <script src="js/app.js"></script>
+  <!-- SCRIPT QUE REGISTA O SERVICE WORKER PWA -->
   <script src="js/register-sw.js"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>
